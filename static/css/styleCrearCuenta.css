@@ -1,0 +1,74 @@
+@import url(./styleInicioSesion.css);
+.banner-iniciosesion {
+    width: 80%;
+    height: 100vh;  
+    max-height: 600px; 
+    background-image: linear-gradient(rgba(255, 255, 255, 0.452), rgba(255, 255, 255, 0.3)), url('../../img/BIENVENIDO.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10em;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.titulo{
+    font-weight: 600;
+}
+.form-floating{
+    width: 80%;
+}
+.form-floating input{
+    background-color: #67B7D1;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}
+.form-floating label{
+    font-weight: lighter;
+}
+.form-floating::placeholder {
+    color: white;
+}
+
+.form-control:focus::placeholder{
+    color: var(--color-input-bg);
+}
+
+.captcha-container {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #d3d3d3;
+    border-radius: 15px;
+    padding: 1em;
+    width: 250px;
+    font-size: 15px;
+    color: var(--color-barra);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#captcha-checkbox {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #d3d3d3;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.captcha-text {
+    margin: auto;
+    text-align: start;
+    
+}
+
+.captcha-logo {
+    width: 35px;
+    height: 35px;
+    background-image: url('../../img/captcha.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

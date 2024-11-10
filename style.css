@@ -1,0 +1,128 @@
+:root {
+    --color-body: #C1DFF0;
+    --color-barra: #2D898B;
+    --color-btn-contact: #D1D8DD;
+    --color-input-bg: rgba(53, 134, 164, 0.7);
+}
+
+* {
+    font-family: "Roboto", serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: var(--color-body);
+}
+
+.color-barra {
+    background-color: var(--color-barra);
+}
+
+#logo-barra {
+    width: 80px;
+    height: auto;
+    max-width: 120px;
+}
+
+.opciones-barra,
+.menu-nav {
+    font-family: "Roboto", serif;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding-top: .6em;
+    padding-bottom: .6em;
+}
+
+.menu-nav>.nav-item>a {
+    color: #fff;
+    text-decoration: none;
+    padding: .6em;
+}
+
+.opciones-barra a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1.5em;
+}
+
+.opciones-barra a:hover,
+.menu-nav>.nav-item>a:hover {
+    color: var(--color-barra);
+    background-color: #fff;
+    border-radius: 10px;
+    transition: ease-in-out .3s;
+}    
+
+
+body{
+    background-color: #C1DFF0;
+}
+
+footer{
+    background-color: #2D898B;
+    
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "roboto";
+    font-weight: bolder;
+    margin-top: 48px;
+}
+
+h2{
+font-family: "roboto";
+font-weight: normal;
+text-align: left;
+}
+
+h3{
+    text-align: center;
+    font-family: "roboto";
+    font-weight:normal;
+}
+
+p{ 
+    font-family: "roboto";
+    font-weight: lighter;
+    font-size: 19px;
+}
+
+#btn1 {
+    
+    background-color: #2D898B;
+    color: black;    
+    height: 50px;
+    text-align: center;
+    width: 150px;
+}
+
+#btn2 {
+    background-color: #B0C9D1;
+    color: black;
+    width: 160px;
+      
+}
+
+
+#planes {
+    background-color: #3587A4;
+    font-family: "roboto";
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#comprar {
+    background-color: #6BAA75;
+    border-color: #6BAA75;
+    
+}
+
+#facebook{
+    height: 30px;
+
+
+}

@@ -1,0 +1,86 @@
+@import url('styleContactanos.css');
+
+.banner-iniciosesion {
+    width: 80%;
+    height: 100vh;  
+    max-height: 600px; 
+    background-image: linear-gradient(rgba(255, 255, 255, 0.452), rgba(255, 255, 255, 0.3)), url('../../img/BIENVENIDO.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10em;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-banner {
+    margin-top: -120px !important;
+}
+
+.container-login {
+    max-width: 50%;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgba(136, 204, 241, 0.608);
+    border: solid 1px #3587A4;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.logo {
+    width: 200px;
+}
+.form-control {
+    background-color: #67B7D1;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    width: 80%;
+    margin:auto;
+}
+.form-control::placeholder {
+    color: white;
+}
+
+.form-control:focus::placeholder{
+    color: var(--color-input-bg);
+}
+.form-imp label{
+    font-weight: lighter;
+}
+
+.btn-primary {
+    background-color: #346e77;
+    border: none;
+    width: 80%;
+    padding: 0.75rem;
+}
+.btn-primary:hover {
+    background-color: #2b5e65;
+}
+.link {
+    color: #346e77;
+    font-size: 0.9rem;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.titulo{
+    font-size: 70px;
+    font-weight: 800;
+    color: #2D848A;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+.box-crea-cuenta{
+    width: 50%;
+    margin:auto;
+    padding: 1.4em;
+    background-color: rgba(136, 204, 241, 0.608);
+    border: solid 1px #3587A4;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

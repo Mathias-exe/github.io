@@ -1,0 +1,122 @@
+:root {
+    --color-body: #C1DFF0;
+    --color-barra: #2D898B;
+    --color-btn-contact: #D1D8DD;
+    --color-input-bg: rgba(53, 134, 164, 0.7);
+}
+
+* {
+    font-family: "Roboto", serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: var(--color-body);
+}
+
+.color-barra {
+    background-color: var(--color-barra);
+}
+
+#logo-barra {
+    width: 80px;
+    height: auto;
+    max-width: 120px;
+}
+
+.opciones-barra,
+.menu-nav {
+    font-family: "Roboto", serif;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding-top: .6em;
+    padding-bottom: .6em;
+}
+
+.menu-nav>.nav-item>a {
+    color: #fff;
+    text-decoration: none;
+    padding: .6em;
+}
+
+.opciones-barra a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1.5em;
+}
+
+.opciones-barra a:hover,
+.menu-nav>.nav-item>a:hover {
+    color: var(--color-barra);
+    background-color: #fff;
+    border-radius: 10px;
+    transition: ease-in-out .3s;
+}
+
+.btn-close {
+    filter: invert(1);
+    opacity: 1;
+    border: 1px solid;
+}
+
+.banner-inicio {
+    width: 80%;
+    height: auto;
+    max-height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.3)), url('../../img/contacto.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8em;
+    border-radius: 15px;
+}
+
+.btn-contact {
+    background-color: var(--color-btn-contact);
+    opacity: 75%;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+}
+
+.btn-contact:hover {
+    background-color: var(--color-btn-contact);
+    opacity: 90%;
+    color: black;
+}
+
+.btn-enviar {
+    background-color: #2D848A;
+}
+
+.form-floating input {
+    background-color: var(--color-input-bg);
+    
+}
+.form-floating label {
+    color: #fff;
+    font-weight: lighter;
+}
+
+.form-floating .form-control:focus + label {
+    color: var(--color-input-bg);
+}
+
+
+.form-textarea {
+    background-color: var(--color-input-bg);
+}
+
+.modal-content {
+    background-color: #88ccf1;
+}
+
+.btn-cerr {
+    background-color: var(--color-barra);
+}
+
+.iconos-foot {
+    margin-left: 42%;
+    font-size: 1.5rem;
+}
